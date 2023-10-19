@@ -12,3 +12,10 @@
 10. Install MySQL Client
 11. Install MySQL Client
 12. Connect and Manage Your Database
+
+
+Creating and changing users
+CREATE USER 'theuser'@'%' IDENTIFIED WITH mysql_native_password BY 'thepassword';
+GRANT ALL PRIVILEGES ON *.* TO 'theuser'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
