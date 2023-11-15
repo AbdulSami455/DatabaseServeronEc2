@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-
+#Region with Access and Secret Key
 provider "aws" {
   region     = "AWS_REGION"
   access_key = "AWS_ACCESS_KEY"
