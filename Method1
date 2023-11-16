@@ -19,3 +19,8 @@ CREATE USER 'theuser'@'%' IDENTIFIED WITH mysql_native_password BY 'thepassword'
 GRANT ALL PRIVILEGES ON *.* TO 'theuser'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
+---------Always Allocate Elastic IP address------
+Go to EC2 Dashboard
+Make ELastic IP Address
+Associate IP address to Instance
+
