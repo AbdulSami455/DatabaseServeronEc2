@@ -13,10 +13,11 @@
 11. Install MySQL Client
 12. Connect and Manage Your Database
 
+CREATE USER 'thesami'@'%' IDENTIFIED WITH mysql_native_password BY 'Thesami@1234';
 
 Creating and changing users
-CREATE USER 'theuser'@'%' IDENTIFIED WITH mysql_native_password BY 'thepassword';
-GRANT ALL PRIVILEGES ON *.* TO 'theuser'@'%' WITH GRANT OPTION;
+CREATE USER 'sami1'@'%' IDENTIFIED WITH mysql_native_password BY 'Sami@1234';
+GRANT ALL PRIVILEGES ON *.* TO 'sami1'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 ---------Always Allocate Elastic IP address------
